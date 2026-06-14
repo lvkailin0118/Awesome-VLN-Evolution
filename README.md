@@ -347,11 +347,3 @@ The formal citation will be updated once the survey metadata is finalized:
   year    = {2026}
 }
 ```
-
-Contribution checklist:
-
-- Keep the table schema as `Year | Paper Title | Repository | Research Direction / Resource`; do not add a `Venue` column.
-- Link `Paper Title` to the best official paper page, PDF, arXiv page, OpenAccess page, or publisher record.
-- Put only confirmed open-source code repositories in `Repository`; use `---` when code is not clearly released.
-- Put project pages, datasets, demos, leaderboards, or survey subdirection labels in `Research Direction / Resource`.
-- Preserve the survey figure source: entries should come from Fig. 3, Fig. 5, Fig. 7, or Fig. 9 unless a future survey update changes the scope.
