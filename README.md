@@ -5,7 +5,9 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
-  <a href="https://github.com/lvkailin0118/Awesome-VLN-Evolution"><img src="https://img.shields.io/badge/Companion-Survey-6A5ACD?style=flat-square" alt="Survey companion"></a>
+  <a href="A_Survey_on_the_Evolution_of_Vision_and_Language_Navigation.pdf"><img src="https://img.shields.io/badge/Paper-View%20PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white" alt="View paper PDF"></a>
+  <a href="https://doi.org/10.20944/preprints202606.2231.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202606.2231.v1-007EC6?style=flat-square" alt="Paper DOI"></a>
+  <a href="https://scholar.google.com/scholar?q=%22From+Instruction+Following+to+Cognitive+Navigation%3A+A+Survey+on+the+Evolution+of+Vision-and-Language+Navigation%22"><img src="https://img.shields.io/badge/Google-Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <a href="https://github.com/lvkailin0118/Awesome-VLN-Evolution/commits/main"><img src="https://img.shields.io/github/last-commit/lvkailin0118/Awesome-VLN-Evolution?style=flat-square" alt="Last commit"></a>
   <a href="https://github.com/lvkailin0118/Awesome-VLN-Evolution/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs welcome"></a>
 </p>
@@ -19,6 +21,8 @@
 </p>
 
 This repository curates papers and resources for the evolution of Vision-and-Language Navigation (VLN), following the survey perspective from instruction following toward cognitive navigation.
+
+**Paper:** [From Instruction Following to Cognitive Navigation: A Survey on the Evolution of Vision-and-Language Navigation](A_Survey_on_the_Evolution_of_Vision_and_Language_Navigation.pdf) ([DOI](https://doi.org/10.20944/preprints202606.2231.v1) | [Google Scholar](https://scholar.google.com/scholar?q=%22From+Instruction+Following+to+Cognitive+Navigation%3A+A+Survey+on+the+Evolution+of+Vision-and-Language+Navigation%22))
 
 The list is organized by four progressive dimensions: **Perception**, **Cognition**, **Learning**, and **Generalization**. Entries are derived from the survey figures in our draft and are sorted by year from newest to oldest within each section.
 
@@ -335,15 +339,17 @@ From closed-benchmark evaluation to zero-shot open-world navigation, long-horizo
 
 ## Citation and Contributions
 
-This repository is maintained as a companion resource for a VLN evolution survey. If you find missing links, released code, or corrected metadata for any listed paper, contributions are welcome through issues or pull requests.
-
-The formal citation will be updated once the survey metadata is finalized:
+If you find this survey or repository useful, please cite our [preprint](https://doi.org/10.20944/preprints202606.2231.v1), which is also indexed by [Google Scholar](https://scholar.google.com/scholar?q=%22From+Instruction+Following+to+Cognitive+Navigation%3A+A+Survey+on+the+Evolution+of+Vision-and-Language+Navigation%22):
 
 ```bibtex
-@article{vln_evolution_survey,
-  title   = {Vision-and-Language Navigation Evolution: From Instruction Following to Cognitive Navigation},
-  author  = {TBD},
-  journal = {TBD},
-  year    = {2026}
+@article{lyu2026instruction,
+  title     = {From Instruction Following to Cognitive Navigation: A Survey on the Evolution of Vision-and-Language Navigation},
+  author    = {Lyu, Kailin and Wu, Kangyi and Li, Pengna and Song, Wenxuan and Wu, Di and He, Jianwei and Chen, Junting and Yang, Ning and Han, Zebin and Luo, Kaiwen and others},
+  year      = {2026},
+  publisher = {Preprints},
+  doi       = {10.20944/preprints202606.2231.v1},
+  url       = {https://doi.org/10.20944/preprints202606.2231.v1}
 }
 ```
+
+This repository is maintained as a companion resource for the survey. If you find missing links, released code, or corrected metadata for any listed paper, contributions are welcome through issues or pull requests.
